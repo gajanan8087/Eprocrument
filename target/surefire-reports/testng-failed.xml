@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" verbose="0" name="Failed suite [Default suite]" parallel="classes">
+  <test name="Default test(failed)" parallel="classes">
+    <classes>
+      <class name="com.jbk.Eproc.TestCases.LoginPageTest">
+        <methods>
+          <include name="loginPageLogoTest"/>
+          <include name="initialiseExtentReport"/>
+          <include name="openBrowser"/>
+          <include name="loadProperties"/>
+          <include name="endReport"/>
+          <include name="loginPageTitleTest"/>
+          <include name="parentSetup"/>
+        </methods>
+      </class> <!-- com.jbk.Eproc.TestCases.LoginPageTest -->
+      <class name="com.jbk.Eproc.TestCases.RegistrationPageTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="parentSetup"/>
+        </methods>
+      </class> <!-- com.jbk.Eproc.TestCases.RegistrationPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

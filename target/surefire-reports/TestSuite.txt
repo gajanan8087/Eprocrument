@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 40.428 s <<< FAILURE! - in TestSuite
+com.jbk.Eproc.TestCases.LoginPageTest.loginPageTitleTest  Time elapsed: 1.225 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.jbk.Eproc.TestCases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:17)
+
+com.jbk.Eproc.TestCases.LoginPageTest.loginPageLogoTest  Time elapsed: 5.377 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-LE9U86J', ip: '192.168.0.126', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78e74533e1fb89bf2e2bc74c062075f4
+	at com.jbk.Eproc.TestCases.LoginPageTest.loginPageLogoTest(LoginPageTest.java:30)
+
